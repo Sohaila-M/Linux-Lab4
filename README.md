@@ -9,11 +9,16 @@
 
 4. Install `apache2` service, edit the default HTML file (`/var/www/html/index.html`), and verify changes in a web browser. 
   
-5. **Check if `sshd` (SSH service) is running**. If not, start and enable it.  
-6. **Restart the `cron` service** and verify its status.  
+5. **Check if `sshd` (SSH service) is running**. If not, start and enable it.  ![image](https://github.com/user-attachments/assets/def60fc6-0715-4289-b419-bb6822d11b45)
 
-7. Create a **compressed tarball** (`archive.tar.gz`) of `/var/log` and save it in your home directory.  
-8. **Extract** the tarball into `~/logs_backup/`.  
+6. **Restart the `cron` service** and verify its status.  ![image](https://github.com/user-attachments/assets/e15e214c-c0e5-4476-bf9f-543626cc1553)
+
+
+7. Create a **compressed tarball** (`archive.tar.gz`) of `/var/log` and save it in your home directory.  ![image](https://github.com/user-attachments/assets/e3938a2c-b347-44be-992c-3f9a79b6ff2b)
+
+8. **Extract** the tarball into `~/logs_backup/`.   ![image](https://github.com/user-attachments/assets/2f358182-81b3-43df-9947-ca1936f7a798) ![image](https://github.com/user-attachments/assets/61187d1a-3ff4-4ea3-a004-6f4fec557fcb)
+
+
 9. Create a **non-compressed tarball** (`archive.tar`) of `/etc/ssh` and save it in `/tmp`.  
 
 10. Compress `~/processes.txt` using `gzip`.  
