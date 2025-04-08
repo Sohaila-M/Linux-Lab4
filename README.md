@@ -1,9 +1,14 @@
 # Linux-Lab4
-1. List **all running processes** and save the output to `~/processes.txt`.  
-2. Find the **PID (Process ID)** of the `sshd` service.  
-3. Run a `sleep 500` command in the background, then **kill it** after 5 seconds.  
+1. List **all running processes** and save the output to `~/processes.txt`.  ![image](https://github.com/user-attachments/assets/20c281fb-651e-4b61-b2a4-9ac3db764925)
 
-4. Install `apache2` service, edit the default HTML file (`/var/www/html/index.html`), and verify changes in a web browser.  
+2. Find the **PID (Process ID)** of the `sshd` service.  ![image](https://github.com/user-attachments/assets/66dfb3ad-acb6-457f-b015-a2d9bc3cc7c9)  ![image](https://github.com/user-attachments/assets/46ef5102-1a79-44b8-8176-3f07fa5408ae)
+
+
+3. Run a `sleep 500` command in the background, then **kill it** after 5 seconds. ![image](https://github.com/user-attachments/assets/5ddc8905-3fc0-487a-9946-45fe076ebf3d)
+ 
+
+4. Install `apache2` service, edit the default HTML file (`/var/www/html/index.html`), and verify changes in a web browser. 
+  
 5. **Check if `sshd` (SSH service) is running**. If not, start and enable it.  
 6. **Restart the `cron` service** and verify its status.  
 
