@@ -21,7 +21,8 @@
 
 9. Create a **non-compressed tarball** (`archive.tar`) of `/etc/ssh` and save it in `/tmp`.  
 
-10. Compress `~/processes.txt` using `gzip`.  
+10. Compress `~/processes.txt` using `gzip`.  ![image](https://github.com/user-attachments/assets/2987a53b-f45c-46b6-aa7b-926b6f246faf)
+
 11. **Decompress** it and compare file sizes using `ls -lh`.  
 
 12. **Install `htop`** (a process viewer) using your package manager.  
