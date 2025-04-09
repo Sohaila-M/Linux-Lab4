@@ -36,9 +36,10 @@
 
 
 15. Use `wget` to download the Linux kernel source:  
-    
-    ```  
-16. Use `curl` to fetch **Google’s homepage** and save it as `google.html`.  
+   ![image](https://github.com/user-attachments/assets/c090190e-eaf9-4853-8c87-c0a7ce2ce40e)
+
+16. Use `curl` to fetch **Google’s homepage** and save it as `google.html`.  ![image](https://github.com/user-attachments/assets/e80f69c8-1454-4805-9ea0-352e16fab464)
+
 
 17. **Create a new VM** (e.g., VirtualBox/Cloud instance), add a user to the `sudoers` group, and run `apt update && apt upgrade`.  
 18. **Generate an SSH key pair** using `ssh-keygen`.  
