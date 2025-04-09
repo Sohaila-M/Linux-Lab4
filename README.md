@@ -21,9 +21,11 @@
 
 9. Create a **non-compressed tarball** (`archive.tar`) of `/etc/ssh` and save it in `/tmp`.  
 
-10. Compress `~/processes.txt` using `gzip`.  ![image](https://github.com/user-attachments/assets/2987a53b-f45c-46b6-aa7b-926b6f246faf)
+10. Compress `~/processes.txt` using `gzip`.  ![image](https://github.com/user-attachments/assets/2987a53b-f45c-46b6-aa7b-926b6f246faf) After Compression we can see that the file size decreased ![image](https://github.com/user-attachments/assets/940ecb47-19a0-49c1-9416-2ce22512034c)
 
-11. **Decompress** it and compare file sizes using `ls -lh`.  
+
+11. **Decompress** it and compare file sizes using `ls -lh`.  We can see that after decompression the file goes back to its original size ![image](https://github.com/user-attachments/assets/e07c2432-227f-4dc4-9bac-7e3431d31d90)
+
 
 12. **Install `htop`** (a process viewer) using your package manager.  
 13. **Search for the package `nginx`** (or `httpd`) but do not install it.  
