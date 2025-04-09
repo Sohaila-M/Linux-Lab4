@@ -27,9 +27,13 @@
 11. **Decompress** it and compare file sizes using `ls -lh`.  We can see that after decompression the file goes back to its original size ![image](https://github.com/user-attachments/assets/e07c2432-227f-4dc4-9bac-7e3431d31d90)
 
 
-12. **Install `htop`** (a process viewer) using your package manager.  
-13. **Search for the package `nginx`** (or `httpd`) but do not install it.  
-14. **Remove the `vim` editor** (if installed) and then reinstall it.  
+12. **Install `htop`** (a process viewer) using your package manager.  ![image](https://github.com/user-attachments/assets/19e0d13d-8aa3-450a-81ee-191cdefca3fc)
+
+13. **Search for the package `nginx`** (or `httpd`) but do not install it.  ![image](https://github.com/user-attachments/assets/ef0fbfef-fb1c-4640-ae02-e3ac2c7d365d)
+
+14. **Remove the `vim` editor** (if installed) and then reinstall it.  ![image](https://github.com/user-attachments/assets/9740d9fc-305b-413b-b6df-82179875064a)                        
+ ![image](https://github.com/user-attachments/assets/9441dd23-aa2c-4b5e-98ed-2066a3aba37b)
+
 
 15. Use `wget` to download the Linux kernel source:  
     
