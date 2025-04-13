@@ -43,10 +43,11 @@
 
 
 17. **Create a new VM** (e.g., VirtualBox/Cloud instance), add a user to the `sudoers` group, and run `apt update && apt upgrade`.         multipass launch --name myvm
-multipass shell myvm
-sudo adduser myuser
-sudo usermod -aG sudo myuser
-sudo apt update && sudo apt upgrade -y
+multipass shell myvm  
+sudo adduser myuser  
+sudo usermod -aG sudo myuser  
+sudo apt update && sudo apt upgrade -y  
+
 18. **Generate an SSH key pair** using `ssh-keygen`.  ![Capture](https://github.com/user-attachments/assets/2e4a6883-e175-4fa8-98d1-ecc1329c978c)
 
 19. **Copy your public key** to the remote server:  ssh-copy-id
