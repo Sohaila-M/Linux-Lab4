@@ -7,7 +7,7 @@
 3. Run a `sleep 500` command in the background, then **kill it** after 5 seconds. ![image](https://github.com/user-attachments/assets/5ddc8905-3fc0-487a-9946-45fe076ebf3d)
  
 
-4. Install `apache2` service, edit the default HTML file (`/var/www/html/index.html`), and verify changes in a web browser. 
+4. Install `apache2` service, edit the default HTML file (`/var/www/html/index.html`), and verify changes in a web browser. (Couldn't install it on my computer)
   
 5. **Check if `sshd` (SSH service) is running**. If not, start and enable it.  ![image](https://github.com/user-attachments/assets/def60fc6-0715-4289-b419-bb6822d11b45)
 
@@ -19,7 +19,8 @@
 8. **Extract** the tarball into `~/logs_backup/`.   ![image](https://github.com/user-attachments/assets/2f358182-81b3-43df-9947-ca1936f7a798) ![image](https://github.com/user-attachments/assets/61187d1a-3ff4-4ea3-a004-6f4fec557fcb)
 
 
-9. Create a **non-compressed tarball** (`archive.tar`) of `/etc/ssh` and save it in `/tmp`.  
+9. Create a **non-compressed tarball** (`archive.tar`) of `/etc/ssh` and save it in `/tmp`. ![image](https://github.com/user-attachments/assets/369f8ecf-d58b-4dce-a8a7-e1da2c143cad)
+ 
 
 10. Compress `~/processes.txt` using `gzip`.  ![image](https://github.com/user-attachments/assets/2987a53b-f45c-46b6-aa7b-926b6f246faf) After Compression we can see that the file size decreased ![image](https://github.com/user-attachments/assets/940ecb47-19a0-49c1-9416-2ce22512034c)
 
@@ -46,7 +47,8 @@ multipass shell myvm
 sudo adduser myuser
 sudo usermod -aG sudo myuser
 sudo apt update && sudo apt upgrade -y
-18. **Generate an SSH key pair** using `ssh-keygen`.  
+18. **Generate an SSH key pair** using `ssh-keygen`.  ![Capture](https://github.com/user-attachments/assets/2e4a6883-e175-4fa8-98d1-ecc1329c978c)
+
 19. **Copy your public key** to the remote server:  ssh-copy-id
 20. **SSH into the server** and verify with `hostname`.  ssh newuser@myvm        hostname
 21. **Transfer the archived file** (e.g., `archive.tar.gz`) to the remote server using ssh copy way (don’t copy/paste >>> you have to search)
