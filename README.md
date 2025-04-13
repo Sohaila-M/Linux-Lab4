@@ -41,10 +41,14 @@
 16. Use `curl` to fetch **Google’s homepage** and save it as `google.html`.  ![image](https://github.com/user-attachments/assets/e80f69c8-1454-4805-9ea0-352e16fab464)
 
 
-17. **Create a new VM** (e.g., VirtualBox/Cloud instance), add a user to the `sudoers` group, and run `apt update && apt upgrade`.  
+17. **Create a new VM** (e.g., VirtualBox/Cloud instance), add a user to the `sudoers` group, and run `apt update && apt upgrade`.         multipass launch --name myvm
+multipass shell myvm
+sudo adduser myuser
+sudo usermod -aG sudo myuser
+sudo apt update && sudo apt upgrade -y
 18. **Generate an SSH key pair** using `ssh-keygen`.  
-19. **Copy your public key** to the remote server:  
-20. **SSH into the server** and verify with `hostname`.  
+19. **Copy your public key** to the remote server:  ssh-copy-id
+20. **SSH into the server** and verify with `hostname`.  ssh newuser@myvm        hostname
 21. **Transfer the archived file** (e.g., `archive.tar.gz`) to the remote server using ssh copy way (don’t copy/paste >>> you have to search)
-
-
+scp archive.tar.gz 
+newuser@vm:/home/
